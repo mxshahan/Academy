@@ -1,0 +1,161 @@
+// @import url('http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic');
+// @import url('http://fonts.googleapis.com/css?family=Raleway:700,400,300');
+// @import url('http://fonts.googleapis.com/css?family=Pacifico');
+// @import url('http://fonts.googleapis.com/css?family=PT+Serif');
+// @import url("/bootstrap/css/bootstrap.css");
+// @import url("/fonts/font-awesome/css/font-awesome.css");
+// @import url("/fonts/fontello/css/fontello.css");
+// @import url("/plugins/magnific-popup/magnific-popup.css");
+// @import url("/plugins/rs-plugin/css/settings.css");
+// @import url("/css/animations.css");
+// @import url("/plugins/owl-carousel/owl.carousel.css");
+// @import url("/plugins/owl-carousel/owl.transitions.css");
+// @import url("/plugins/hover/hover-min.css");
+// @import url("/css/style.css");
+// @import url("/css/skins/cool_green.css");
+// @import url("/style-switcher/style-switcher.css");
+// @import url("/css/custom.css");
+
+@import url('./owl-carousel.scss');
+$pri: #21bb9d;
+$sec: #1ea88d;
+
+
+.bg-light{
+  background:#f5f5f5
+}
+
+.TrainerTest{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.addcourse fieldset{
+  margin-top: 0px;
+}
+
+.image-box{
+  margin: 10px;
+}
+
+.instructor--img{
+  height: 180px;
+  overflow: hidden;
+}
+
+.instructor .cols{
+  margin-bottom: 25px;
+}
+
+.header-top .header-contact{
+  padding-top:10px;
+  padding-bottom: 8px;
+}
+
+.joining .btn{
+  margin: 0px;
+}
+#header-top-second{
+  list-style:none;
+}
+#header-top-second .dropdown{
+  padding-top: 10px;
+  padding-bottom: 8px;
+}
+
+#header-top-second img{
+  display: inline-block
+}
+
+.dropdown>a:before{
+  display:none
+}
+.dropdown>a span{
+  font-size: 14px;
+}
+
+#header-top-second .dropdown-menu{
+  z-index: 999999;
+  padding: 10px;
+  margin-top: 5px;
+  width: 280px;
+}
+
+#header-top-second .dropdown-menu img{
+  padding: 5px;
+  margin: 10px;
+}
+
+// Modal
+.custom-modal{
+  top: 25%
+}
+
+#loginForm{
+  color: #333;
+}
+
+.form-block{
+  width: 100%;
+}
+
+.loginBtn{
+  margin: 20px 5px;
+}
+
+#autBtn{
+  color: #ffffff;
+  background-color: $pri;
+  border-color: $sec
+}
+
+#authBtn:hover{
+  background-color: $sec
+}
+
+#auth input{
+  box-shadow: none;
+  border: 1px solid #ddd;
+}
+
+#auth .licence{
+  padding: 4px;
+  display: inline-block;
+}
+
+
+// Homepage
+#homepage-course .owl-next,
+#homepage-course .owl-prev {
+  padding: 10px 15px !important;
+  color:#fff;
+}
+
+.pt-20{
+  padding-bottom: 20px;
+}
+.pb-20{
+  padding-bottom: 20px;
+}
+.pl-20{
+  padding-bottom: 20px;
+}
+.pr-20{
+  padding-bottom: 20px;
+}
+.pb-50{
+  padding-bottom: 50px;
+}
+.mb-50{
+  margin-bottom: 50px;
+}
+
+.dropdown-menu>li>a, .mega-menu .menu>li>a{
+  border: 0px none;
+  color:#fff;
+}
+.dropdown-menu>li>a:hover, .mega-menu .menu>li>a:hover{
+  border: 0px none;
+  background-color:#b62a25;
+  color:#fff;
+}
